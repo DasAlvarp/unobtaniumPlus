@@ -5,7 +5,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid="UnobtaniumPlus", name="UnobtaniumPlus", version="1.7.10-0.0.1a")//registers it as a mod.
+@Mod(modid="UnobtaniumPlus", name="UnobtaniumPlus", version="1.7.10-10.13.2.123")//registers it as a mod.
 public class UnobtaniumPlus {
 
 	@Mod.Instance("UnobtaniumPlus")
