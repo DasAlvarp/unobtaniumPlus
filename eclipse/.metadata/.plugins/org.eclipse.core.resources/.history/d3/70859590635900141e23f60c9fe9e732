@@ -1,0 +1,8 @@
+package com.dasalvarp.unobtaniumplus;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid="UnobtaniumPlus", name="UnobtaniumPlus", version="1.7.10-10.13.2.123")
+public class UnobtaniumPlus {
+
+}
