@@ -19,7 +19,7 @@ public class UnobtaniumPlus {
 	@Mod.Instance(Reference.MODID)
 	public static UnobtaniumPlus instance;//static object that's the mod, completely untouched by man. safe.
 	
-	@SidedProxy(clientSide = "com.dasalvarp.unobtaniumplus.proxy.ClientProxy", serverSide = "com.dasalvarp.unobtaniumplus.proxy.ServerProxy")
+	@SidedProxy(clientSide = "proxy.ClientProxy", serverSide = "proxy.ServerProxy")
 	public static IProxy proxy;
 	
 	@Mod.EventHandler
