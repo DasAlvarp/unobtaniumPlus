@@ -1,0 +1,31 @@
+package com.dasalvarp.unobtaniumplus.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+	public static void init(File configFile)
+	{
+		
+		//creates config object.
+		Configuration config = new Configuration(configFile);
+		
+		try
+		{
+			//load config file
+			config.load();
+		}
+		catch(Exception e)
+		{
+			//bad code. Should log it someday.
+			boolean configVal = config.getBoolean(Configuration.CATEGORY_GENERAL, "configValue", true, "");
+		}
+		finally
+		{
+			//save config file
+			config.save();
+		}
+	}
+
+}

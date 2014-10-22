@@ -2,6 +2,7 @@ package com.dasalvarp.unobtaniumplus;
 
 
 
+import com.dasalvarp.unobtaniumplus.configuration.ConfigurationHandler;
 import com.dasalvarp.unobtaniumplus.proxy.IProxy;
 import com.dasalvarp.unobtaniumplus.reference.Reference;
 
@@ -19,13 +20,14 @@ public class UnobtaniumPlus {
 	@Mod.Instance(Reference.MODID)
 	public static UnobtaniumPlus instance;//static object that's the mod, completely untouched by man. safe.
 	
-	@SidedProxy(clientSide = "com.dasalvarp.unobtaniumplus.proxy.ClientProxy", serverSide = "com.dasalvarp.unobtaniumplus.proxy.ServerProxy")
+	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static IProxy proxy;
 	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)//can be whatever I want to call it. Arg is the only important thing.
 	{
-		
+		//load configs
+		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	}
 	
 	@Mod.EventHandler

@@ -1,0 +1,5 @@
+package com.dasalvarp.unobtaniumplus.configuration;
+
+public class ConfigurationHandler {
+
+}

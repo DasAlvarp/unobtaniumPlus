@@ -1,0 +1,28 @@
+package com.dasalvarp.unobtaniumplus.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+	public static void init(File configFile)
+	{
+		Configuration config = new Configuration(configFile);
+		
+		try
+		{
+			//load config file
+			config.load();
+		}
+		catch(Exception e)
+		{
+			//bad code
+		}
+		finally
+		{
+			//save config file
+			config.save();
+		}
+	}
+
+}
