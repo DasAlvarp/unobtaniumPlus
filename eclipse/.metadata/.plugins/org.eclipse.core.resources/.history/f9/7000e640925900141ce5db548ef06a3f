@@ -1,0 +1,8 @@
+package com.dasalvarp.unobtaniumplus.reference;
+
+public class Reference {
+	//constants for the mod go here. Just pahimar's opinion.
+	
+	public static final String MODID = "UnobtaniumPlus";
+	public static final String MODNAME = "Unobtanium+"
+}
