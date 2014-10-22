@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [12:46:39] [main/INFO]: Setting user: Player868
 [12:46:46] [Client thread/INFO]: LWJGL Version: [12:46[12:46:49] [Client thread/ERROR]: Couldn't initi[12:46:49] [Client t[12:47:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unobtanium+, FMLFileResourcePack:Example Mod
 [12:47:26] [Sound Library Loader/INFO]: Sound en[12:47:26] [S[12:47:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
@@ -11,6 +12,8 @@
 rted
 [12:48:13] [Client thread/INFO]: Stopping!
 =======
+=======
+>>>>>>> parent of f49ec95... e
 [22:27:11] [main/INFO]: Setting user: Player332
 [22:27:13] [Client thread/INFO]: LWJGL Version: 2.9.1
 [22:27:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Unobtanium+
@@ -32,4 +35,7 @@ rted
 [22:28:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
 [22:28:30] [Sound Library Loader/INFO]: Sound engine started
 [22:28:31] [Client thread/INFO]: Stopping!
+<<<<<<< HEAD
+>>>>>>> parent of f49ec95... e
+=======
 >>>>>>> parent of f49ec95... e
