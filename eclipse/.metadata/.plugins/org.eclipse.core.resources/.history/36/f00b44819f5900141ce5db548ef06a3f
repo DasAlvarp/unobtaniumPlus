@@ -1,7 +1,0 @@
-package com.dasalvarp.unobtaniumplus.client.gui;
-
-import cpw.mods.fml.client.config.GuiConfig;
-
-public class GuiCFG extends GuiConfig {
-
-}

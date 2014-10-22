@@ -6,22 +6,4 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLInitializationEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPostInitializationEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.Instance"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
-<fullyQualifiedTypeName name="proxy.IProxy"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="com.dasalvarp.unobtaniumplus.configuration.ConfigurationHandler"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.SubscribeEvent"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.client.IModGuiFactory"/>
-<fullyQualifiedTypeName name="com.dasalvarp.unobtaniumplus.handler.ConfigurationHandler"/>
-<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
-<fullyQualifiedTypeName name="net.minecraftforge.common.config.ConfigElement"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.client.config.GuiConfig"/>
-<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLLog"/>
-<fullyQualifiedTypeName name="com.dasalvarp.unobtaniumplus.reference.Reference"/>
-<fullyQualifiedTypeName name="org.apache.logging.log4j.Level"/>
-<fullyQualifiedTypeName name="com.dasalvarp.unobtaniumplus.utility.LogHelper"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLCommonHandler"/>
 </qualifiedTypeNameHistroy>
