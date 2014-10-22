@@ -1,0 +1,16 @@
+package com.dasalvarp.unobtaniumplus.utility;
+
+import org.apache.logging.log4j.Level;
+
+import com.dasalvarp.unobtaniumplus.reference.Reference;
+
+import cpw.mods.fml.common.FMLLog;
+
+public class LogHelper {
+	
+	public static void log(Level logLevel, Object object)
+	{
+		FMLLog.log(Reference.MODNAME, logLevel, String.valueOf(object));
+	}
+
+}
